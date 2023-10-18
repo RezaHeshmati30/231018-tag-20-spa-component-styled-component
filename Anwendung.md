@@ -74,11 +74,6 @@ const StyledButton = styled.button`
       background: blueviolet;
     `};
 `;
-/* Überschreiben */
-
-const StyledButtonWithPadding = styled(StyledButton)`
-  padding: 2rem 3rem;
-`;
 
 const App = () => {
   return (
@@ -140,7 +135,7 @@ const App = () => {
 import React from "react";
 import styled from "styled-components";
 
-const Button = styled.button<{ $primary?: boolean; }>`
+const Button = styled.button`
   background: ${props => props.$primary ? "#BF4F74" : "white"};
   color: ${props => props.$primary ? "white" : "#BF4F74"};
   font-size: 1em;
