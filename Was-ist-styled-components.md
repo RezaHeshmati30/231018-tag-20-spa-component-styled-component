@@ -38,4 +38,4 @@ const App = () => {
 export default App;
 ```
 
-In diesem Beispiel wird den Title-Komponent mit Styled-Components erstellt und mit Styles definiert, die dann auf den gerenderten `Title/h1` angewendet werden.
+In diesem Beispiel wird den Container-Komponent mit Styled-Components erstellt und mit Styles definiert, die dann auf den gerenderten `Container/div` angewendet werden.
